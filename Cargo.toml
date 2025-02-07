@@ -1,0 +1,11 @@
+[package]
+name = "solana-airdrop-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+daemonize = "0.5.0"
+simplelog = "0.12.2"
+tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "time"] }
+which = "7.0.2"
