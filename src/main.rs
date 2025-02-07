@@ -11,7 +11,7 @@ const AIRDROP_AMOUNT: &str = "1";
 const TARGET_ADDRESS: &str = "your-wallet-address";
 const LOG_FILE: &str = "/tmp/solana_airdrop.log";
 const MAX_LOG_SIZE: u64 = 10 * 1024 * 1024; // 10 MB
-const TEST_MODE: bool = true;
+const TEST_MODE: bool = false;
 
 /// Check log file size and reset if it's too big
 fn check_and_reset_log() {
@@ -60,7 +60,6 @@ async fn request_airdrop() -> Result<(), Box<dyn std::error::Error>> {
     }
 }
 
-/// Gece 00:00'a kadar bekleme fonksiyonu
 async fn wait_until_midnight() {
     let now = SystemTime::now()
         .duration_since(UNIX_EPOCH)
