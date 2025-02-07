@@ -7,7 +7,7 @@ repository = "https://github.com/oguzhaniptes/solana-airdrop-service"
 license = "MIT"
 readme = "README.md"
 keywords = ["solana", "airdrop", "service"]
-categories = ["cli", "command-line", "command-line-utilities", "solana", "airdrop", "solana-airdrop", "token", "devnet-token", "devnet"]
+categories = ["solana", "airdrop", "token", "devnet", "devnet-token"]
 
 
 [[bin]]
