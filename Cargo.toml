@@ -2,6 +2,17 @@
 name = "solana-airdrop-service"
 version = "0.1.0"
 edition = "2021"
+description = "A background service for scheduling Solana airdrops."
+repository = "https://github.com/oguzhaniptes/solana-airdrop-service"
+license = "MIT"
+readme = "README.md"
+keywords = ["solana", "airdrop", "service"]
+categories = ["cli", "command-line", "command-line-utilities", "solana", "airdrop", "solana-airdrop", "token", "devnet-token", "devnet"]
+
+
+[[bin]]
+name = "solana-airdrop-service"
+path = "src/main.rs"
 
 [dependencies]
 log = "0.4"
