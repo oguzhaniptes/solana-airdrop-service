@@ -1,6 +1,6 @@
 [package]
 name = "solana-airdrop-service"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A background service for scheduling Solana airdrops."
 repository = "https://github.com/oguzhaniptes/solana-airdrop-service"
